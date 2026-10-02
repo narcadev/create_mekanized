@@ -1,13 +1,5 @@
 {
-  "itemGroup.create_mekanized": "Create: Mekanized Tab",
-  "block.create_mekanized.example_block": "Example Block",
-  "item.create_mekanized.example_item": "Example Item",
-
   "create_mekanized.configuration.title": "Create: Mekanized Configs",
   "create_mekanized.configuration.section.create_mekanized.common.toml": "Create: Mekanized Configs",
-  "create_mekanized.configuration.section.create_mekanized.common.toml.title": "Create: Mekanized Configs",
-  "create_mekanized.configuration.items": "Item List",
-  "create_mekanized.configuration.logDirtBlock": "Log Dirt Block",
-  "create_mekanized.configuration.magicNumberIntroduction": "Magic Number Text",
-  "create_mekanized.configuration.magicNumber": "Magic Number"
+  "create_mekanized.configuration.section.create_mekanized.common.toml.title": "Create: Mekanized Configs"
 }

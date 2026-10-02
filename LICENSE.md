@@ -1,9 +1,26 @@
+# License Overview
+
+## Assets License (All Rights Reserved)
+
+All Rights Reserved
+
+Copyright (c) 2026 narcadev
+
+This license applies to any files under the following directories:
+
+- ./src/main/resources/assets/
+
+These files may not be copied, modified, redistributed or used in other projects without explicit permission from the copyright holder.
+
+---
+
+## Code License (MIT)
+
+All other files are licensed under the MIT License:
+
 MIT License
 
-Copyright (c) 2023 NeoForged project
-
-This license applies to the template files as supplied by github.com/NeoForged/MDK
-
+Copyright (c) 2026 narcadev
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -22,3 +39,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+## Third-party Notice
+
+Portions of the build setup (Gradle files and wrapper) are derived from the NeoForged MDK
+(https://github.com/NeoForged/MDK), Copyright (c) 2023 NeoForged project, licensed under the MIT License.

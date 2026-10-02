@@ -1,4 +1,5 @@
 {
     "java.configuration.updateBuildConfiguration": "automatic",
-    "java.import.gradle.wrapper.enabled": true
+    "java.import.gradle.wrapper.enabled": true,
+    "java.compile.nullAnalysis.mode": "automatic"
 }
