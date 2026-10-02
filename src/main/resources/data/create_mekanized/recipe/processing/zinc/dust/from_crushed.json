@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "create_mekanized:config_enabled",
+      "option": "enableDustTier"
+    }
+  ],
+  "type": "mekanism:crushing",
+  "input": {
+    "count": 1,
+    "item": "create:crushed_raw_zinc"
+  },
+  "output": {
+    "count": 1,
+    "id": "create_mekanized:dust_zinc"
+  }
+}

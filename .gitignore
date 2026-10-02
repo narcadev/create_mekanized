@@ -27,7 +27,7 @@ bin/
 !**/src/**/bin/
 
 ### VS Code ###
-!.vscode/
+.vscode/
 
 ### Mac OS ###
 .DS_Store
@@ -38,3 +38,6 @@ run/
 **/src/generated/**/.cache/
 repo/
 !**/src/**/repo/
+
+### Local reference files ###
+reference/

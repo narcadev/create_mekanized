@@ -1,0 +1,30 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:or",
+      "values": [
+        {
+          "type": "create_mekanized:config_enabled",
+          "option": "enableClumpTier"
+        },
+        {
+          "type": "create_mekanized:config_enabled",
+          "option": "enableShardTier"
+        },
+        {
+          "type": "create_mekanized:config_enabled",
+          "option": "enableSlurryTier"
+        }
+      ]
+    }
+  ],
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "tag": "c:dirty_dusts/zinc"
+  },
+  "output": {
+    "count": 1,
+    "id": "create_mekanized:dust_zinc"
+  }
+}

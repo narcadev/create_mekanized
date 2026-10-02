@@ -46,3 +46,7 @@ SOFTWARE.
 
 Portions of the build setup (Gradle files and wrapper) are derived from the NeoForged MDK
 (https://github.com/NeoForged/MDK), Copyright (c) 2023 NeoForged project, licensed under the MIT License.
+
+The zinc processing item textures (dust, dirty dust, clump, shard and crystal under
+./src/main/resources/assets/create_mekanized/textures/item/) are recoloured from Mekanism's textures
+(https://github.com/mekanism/Mekanism), Copyright (c) Mekanism contributors, licensed under the MIT License.

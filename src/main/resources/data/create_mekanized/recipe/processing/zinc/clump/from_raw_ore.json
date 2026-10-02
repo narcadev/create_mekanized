@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "create_mekanized:config_enabled",
+      "option": "enableClumpTier"
+    }
+  ],
+  "type": "mekanism:purifying",
+  "chemical_input": {
+    "amount": 1,
+    "chemical": "mekanism:oxygen"
+  },
+  "item_input": {
+    "count": 1,
+    "tag": "c:raw_materials/zinc"
+  },
+  "output": {
+    "count": 2,
+    "id": "create_mekanized:clump_zinc"
+  },
+  "per_tick_usage": true
+}

@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "create_mekanized:config_enabled",
+      "option": "enableDustTier"
+    }
+  ],
+  "type": "mekanism:enriching",
+  "input": {
+    "count": 1,
+    "tag": "c:storage_blocks/raw_zinc"
+  },
+  "output": {
+    "count": 12,
+    "id": "create_mekanized:dust_zinc"
+  }
+}

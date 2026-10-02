@@ -1,5 +1,20 @@
 {
   "create_mekanized.configuration.title": "Create: Mekanized Configs",
   "create_mekanized.configuration.section.create_mekanized.common.toml": "Create: Mekanized Configs",
-  "create_mekanized.configuration.section.create_mekanized.common.toml.title": "Create: Mekanized Configs"
+  "create_mekanized.configuration.section.create_mekanized.common.toml.title": "Create: Mekanized Configs",
+  "itemGroup.create_mekanized": "Create: Mekanized",
+  "item.create_mekanized.dust_zinc": "Zinc Dust",
+  "item.create_mekanized.dirty_dust_zinc": "Dirty Zinc Dust",
+  "item.create_mekanized.clump_zinc": "Zinc Clump",
+  "item.create_mekanized.shard_zinc": "Zinc Shard",
+  "item.create_mekanized.crystal_zinc": "Zinc Crystal",
+  "item.create_mekanized.enriched_zinc": "Enriched Zinc",
+  "chemical.create_mekanized.dirty_zinc": "Dirty Zinc Slurry",
+  "chemical.create_mekanized.clean_zinc": "Clean Zinc Slurry",
+  "chemical.create_mekanized.zinc": "Zinc",
+  "create_mekanized.configuration.zinc_processing": "Zinc Processing",
+  "create_mekanized.configuration.enableDustTier": "Dust (2x)",
+  "create_mekanized.configuration.enableClumpTier": "Clumps (3x)",
+  "create_mekanized.configuration.enableShardTier": "Shards (4x)",
+  "create_mekanized.configuration.enableSlurryTier": "Slurry (5x)"
 }

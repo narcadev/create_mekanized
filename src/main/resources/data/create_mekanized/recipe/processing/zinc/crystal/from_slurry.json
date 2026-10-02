@@ -1,0 +1,17 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "create_mekanized:config_enabled",
+      "option": "enableSlurryTier"
+    }
+  ],
+  "type": "mekanism:crystallizing",
+  "input": {
+    "amount": 200,
+    "chemical": "create_mekanized:clean_zinc"
+  },
+  "output": {
+    "count": 1,
+    "id": "create_mekanized:crystal_zinc"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "create_mekanized:config_enabled",
+      "option": "enableSlurryTier"
+    }
+  ],
+  "type": "mekanism:dissolution",
+  "chemical_input": {
+    "amount": 1,
+    "chemical": "mekanism:sulfuric_acid"
+  },
+  "item_input": {
+    "count": 3,
+    "tag": "c:raw_materials/zinc"
+  },
+  "output": {
+    "amount": 2000,
+    "id": "create_mekanized:dirty_zinc"
+  },
+  "per_tick_usage": true
+}

@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:oxidizing",
+  "input": {
+    "count": 1,
+    "tag": "c:dusts/zinc"
+  },
+  "output": {
+    "amount": 10,
+    "id": "create_mekanized:zinc"
+  }
+}

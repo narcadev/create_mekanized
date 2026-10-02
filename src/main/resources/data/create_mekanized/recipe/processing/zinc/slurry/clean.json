@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "create_mekanized:config_enabled",
+      "option": "enableSlurryTier"
+    }
+  ],
+  "type": "mekanism:washing",
+  "chemical_input": {
+    "amount": 1,
+    "chemical": "create_mekanized:dirty_zinc"
+  },
+  "fluid_input": {
+    "amount": 5,
+    "tag": "minecraft:water"
+  },
+  "output": {
+    "amount": 1,
+    "id": "create_mekanized:clean_zinc"
+  }
+}

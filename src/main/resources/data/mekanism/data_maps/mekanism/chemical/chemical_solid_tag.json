@@ -1,0 +1,7 @@
+{
+  "values": {
+    "create_mekanized:clean_zinc": {
+      "representation": "c:ores/zinc"
+    }
+  }
+}

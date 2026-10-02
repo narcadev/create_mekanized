@@ -1,0 +1,11 @@
+{
+  "type": "mekanism:crushing",
+  "input": {
+    "count": 1,
+    "tag": "c:ingots/zinc"
+  },
+  "output": {
+    "count": 1,
+    "id": "create_mekanized:dust_zinc"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "create_mekanized:config_enabled",
+      "option": "enableSlurryTier"
+    }
+  ],
+  "type": "mekanism:injecting",
+  "chemical_input": {
+    "amount": 1,
+    "chemical": "mekanism:hydrogen_chloride"
+  },
+  "item_input": {
+    "count": 1,
+    "tag": "c:crystals/zinc"
+  },
+  "output": {
+    "count": 1,
+    "id": "create_mekanized:shard_zinc"
+  },
+  "per_tick_usage": true
+}
