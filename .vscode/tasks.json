@@ -1,0 +1,38 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "runClient (debug)",
+            "type": "shell",
+            "command": "./gradlew runClient --debug-jvm",
+            "isBackground": true,
+            "problemMatcher": {
+                "owner": "gradle",
+                "pattern": { "regexp": "^__never_matches__$" },
+                "background": {
+                    "activesBegin": true,
+                    "beginsPattern": "^> Task",
+                    "endsPattern": "Listening for transport dt_socket"
+                }
+            }
+        },
+        {
+            "label": "runServer (debug)",
+            "type": "shell",
+            "command": "./gradlew runServer --debug-jvm",
+            "isBackground": true,
+            "problemMatcher": {
+                "owner": "gradle",
+                "pattern": { "regexp": "^__never_matches__$" },
+                "background": {
+                    "activesBegin": true,
+                    "beginsPattern": "^> Task",
+                    "endsPattern": "Listening for transport dt_socket"
+                }
+            }
+        },
+        { "label": "runClient", "type": "shell", "command": "./gradlew runClient", "problemMatcher": [] },
+        { "label": "runData", "type": "shell", "command": "./gradlew runData", "problemMatcher": [] },
+        { "label": "build", "type": "shell", "command": "./gradlew build", "group": { "kind": "build", "isDefault": true }, "problemMatcher": [] }
+    ]
+}
