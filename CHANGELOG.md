@@ -1,9 +1,9 @@
 # Changelog
 
 All notable changes to Create: Mekanized are documented here.
-The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
+The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
-## [0.1.0] - 2026/10/02
+## [0.1.0] - 2026-10-02
 
 ### Added
 - Zinc processing in Mekanism machines, from 2x up to 5x: Zinc Dust, Dirty Zinc Dust, Zinc Clump, Zinc Shard, Zinc Crystal, and Dirty and Clean Zinc Slurry.
