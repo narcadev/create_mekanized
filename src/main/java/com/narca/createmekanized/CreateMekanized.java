@@ -3,6 +3,7 @@ package com.narca.createmekanized;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
+import com.narca.createmekanized.compat.CreateHeating;
 import com.narca.createmekanized.registry.ModChemicals;
 import com.narca.createmekanized.registry.ModConditions;
 import com.narca.createmekanized.registry.ModCreativeTabs;
@@ -12,6 +13,7 @@ import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.config.ModConfig;
+import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 
 @Mod(CreateMekanized.MODID)
 public class CreateMekanized {
@@ -24,6 +26,13 @@ public class CreateMekanized {
         ModCreativeTabs.register(modEventBus);
         ModConditions.register(modEventBus);
 
+        modEventBus.addListener(this::commonSetup);
+
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+    }
+
+    private void commonSetup(FMLCommonSetupEvent event) {
+        // enqueueWork runs on the main thread after all blocks are registered, like Create's own heaters
+        event.enqueueWork(CreateHeating::registerBoilerHeaters);
     }
 }

@@ -15,7 +15,7 @@ public class ModCreativeTabs {
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MAIN = CREATIVE_MODE_TABS.register("main", () -> CreativeModeTab.builder()
             .title(Component.translatable("itemGroup.create_mekanized"))
-            .icon(() -> ModItems.ENRICHED_ZINC.get().getDefaultInstance())
+            .icon(() -> ModItems.CRYSTAL_ZINC.get().getDefaultInstance())
             // Every item registered by ModItems, in registration order
             .displayItems((parameters, output) -> ModItems.ITEMS.getEntries().forEach(item -> output.accept(item.get())))
             .build());

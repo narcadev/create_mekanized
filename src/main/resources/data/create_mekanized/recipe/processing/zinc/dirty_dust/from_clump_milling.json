@@ -1,0 +1,37 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "create_mekanized:config_enabled",
+      "option": "enableCreateChainSteps"
+    },
+    {
+      "type": "neoforge:or",
+      "values": [
+        {
+          "type": "create_mekanized:config_enabled",
+          "option": "enableClumpTier"
+        },
+        {
+          "type": "create_mekanized:config_enabled",
+          "option": "enableShardTier"
+        },
+        {
+          "type": "create_mekanized:config_enabled",
+          "option": "enableSlurryTier"
+        }
+      ]
+    }
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:clumps/zinc"
+    }
+  ],
+  "processing_time": 150,
+  "results": [
+    {
+      "id": "create_mekanized:dirty_dust_zinc"
+    }
+  ]
+}

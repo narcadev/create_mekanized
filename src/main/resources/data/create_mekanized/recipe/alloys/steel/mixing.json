@@ -1,0 +1,26 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "create_mekanized:config_enabled",
+      "option": "enableMixerSteel"
+    }
+  ],
+  "type": "create:mixing",
+  "heat_requirement": "superheated",
+  "ingredients": [
+    {
+      "tag": "c:ingots/iron"
+    },
+    {
+      "tag": "minecraft:coals"
+    },
+    {
+      "tag": "minecraft:coals"
+    }
+  ],
+  "results": [
+    {
+      "id": "mekanism:ingot_steel"
+    }
+  ]
+}

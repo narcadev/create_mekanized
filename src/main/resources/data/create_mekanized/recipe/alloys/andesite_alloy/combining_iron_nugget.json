@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "create_mekanized:config_enabled",
+      "option": "enableCombinerAndesiteAlloy"
+    }
+  ],
+  "type": "mekanism:combining",
+  "main_input": {
+    "count": 1,
+    "item": "minecraft:andesite"
+  },
+  "extra_input": {
+    "count": 1,
+    "tag": "c:nuggets/iron"
+  },
+  "output": {
+    "count": 1,
+    "id": "create:andesite_alloy"
+  }
+}

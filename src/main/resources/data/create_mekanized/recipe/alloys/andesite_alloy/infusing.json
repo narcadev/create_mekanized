@@ -1,0 +1,22 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "create_mekanized:config_enabled",
+      "option": "enableInfuserAndesiteAlloy"
+    }
+  ],
+  "type": "mekanism:metallurgic_infusing",
+  "chemical_input": {
+    "amount": 8,
+    "chemical": "create_mekanized:zinc"
+  },
+  "item_input": {
+    "count": 8,
+    "item": "minecraft:andesite"
+  },
+  "output": {
+    "count": 8,
+    "id": "create:andesite_alloy"
+  },
+  "per_tick_usage": false
+}

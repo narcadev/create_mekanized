@@ -1,0 +1,20 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "create_mekanized:config_enabled",
+      "option": "enableCreateChainSteps"
+    }
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "c:clumps/uranium"
+    }
+  ],
+  "processing_time": 150,
+  "results": [
+    {
+      "id": "mekanism:dirty_dust_uranium"
+    }
+  ]
+}

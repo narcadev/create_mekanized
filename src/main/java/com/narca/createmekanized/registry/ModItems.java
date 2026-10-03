@@ -19,7 +19,6 @@ public class ModItems {
     public static final DeferredItem<Item> CLUMP_ZINC = ITEMS.registerSimpleItem("clump_zinc");
     public static final DeferredItem<Item> SHARD_ZINC = ITEMS.registerSimpleItem("shard_zinc");
     public static final DeferredItem<Item> CRYSTAL_ZINC = ITEMS.registerSimpleItem("crystal_zinc");
-    public static final DeferredItem<Item> ENRICHED_ZINC = ITEMS.registerSimpleItem("enriched_zinc");
 
     public static void register(IEventBus modEventBus) {
         ITEMS.register(modEventBus);

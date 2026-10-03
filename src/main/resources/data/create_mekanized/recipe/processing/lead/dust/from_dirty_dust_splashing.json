@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "create_mekanized:config_enabled",
+      "option": "enableCreateChainSteps"
+    }
+  ],
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "tag": "c:dirty_dusts/lead"
+    }
+  ],
+  "results": [
+    {
+      "id": "mekanism:dust_lead"
+    }
+  ]
+}
