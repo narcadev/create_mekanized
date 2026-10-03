@@ -1,23 +1,3 @@
-# License Overview
-
-## Assets License (All Rights Reserved)
-
-All Rights Reserved
-
-Copyright (c) 2026 narcadev
-
-This license applies to any files under the following directories:
-
-- ./src/main/resources/assets/
-
-These files may not be copied, modified, redistributed or used in other projects without explicit permission from the copyright holder.
-
----
-
-## Code License (MIT)
-
-All other files are licensed under the MIT License:
-
 MIT License
 
 Copyright (c) 2026 narcadev
@@ -39,14 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-## Third-party Notice
-
-Portions of the build setup (Gradle files and wrapper) are derived from the NeoForged MDK
-(https://github.com/NeoForged/MDK), Copyright (c) 2023 NeoForged project, licensed under the MIT License.
-
-The zinc processing item textures (dust, dirty dust, clump, shard and crystal under
-./src/main/resources/assets/create_mekanized/textures/item/) are recoloured from Mekanism's textures
-(https://github.com/mekanism/Mekanism), Copyright (c) Mekanism contributors, licensed under the MIT License.
